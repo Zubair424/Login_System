@@ -102,7 +102,7 @@ exports.renewaccesstoken = async function (req, res) {
       } else {
         return res.json({
           success: false,
-          message: "Invalid refresh token",
+            message: "Invalid refresh token",
         });
       }
     });
